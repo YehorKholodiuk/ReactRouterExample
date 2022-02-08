@@ -7,7 +7,7 @@ const User = (props) => {
     console.log(params)
     return (
         <div>
-            User
+            User {params.userId} || {params.lastName}
         </div>
     );
 };
